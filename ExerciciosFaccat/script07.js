@@ -4,6 +4,12 @@
 3 Saída 
 */
 
+// Disciplina   : [Lógica de Programação com Java Script]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Ler idade em anos, meses e dias, e escrever em dias.
+// Autor(a)    : Guilherme Souza Andrade
+// Data atual  : 31/08/2026
+
 alert("******PROGRAMA IDADE******");
 
 ano = parseInt(prompt("DIGITE A QUANTIDADE DE ANOS VIVIDOS: "));

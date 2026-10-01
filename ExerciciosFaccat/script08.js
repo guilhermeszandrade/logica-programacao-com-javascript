@@ -4,6 +4,15 @@
 3 Saída 
 */
 
+// Disciplina   : [Lógica de Programação com Java Script]
+// Professor   : Jailson Costa dos Santos
+// Descrição   : Escreva um algoritmo para ler o número total de
+//  eleitores de um município, o número de votos brancos,
+// nulos e válidos. Calcular e escrever o percentual que cada
+// um representa em relação ao total de eleitores.
+// Autor(a)    : Guilherme Souza Andrade
+// Data atual  : 31/08/2026
+
 alert("******PROGRAMA ELEITORES******");
 
 let eleitores = parseInt(
