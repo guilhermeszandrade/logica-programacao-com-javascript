@@ -8,17 +8,21 @@
 // o salário fixo e o valor que ele recebe por carro vendido.
 // Calcule e escreva o salário final do vendedor. (função)
 // Autor(a)    : Guilherme Souza Andrade
-// Data atual  : 05/09/2026
-
+// Data atual  : 30/09/2026
 
 function salarioConcessionaria ( ) {
 let carrosVendidos = parseInt(prompt("Infome a quantidade de carros vendidas pelo funcionario: "))
 let salarioFixo = parseFloat(prompt("Informe o salario fixo do funcionario: "))
+let valorTotalVendas = parseFloat(prompt("Informe o valor total de vendas: "))
+let comissaoPorCarro = parseFloat(prompt("Informe o valor da comissão por carro vendido: "))
+
 alert("A quantidade de carros vendidos esse mês pelo funcionario foi de: " + carrosVendidos)
-let comissaoFixa = 0.5
-let salarioFinalDoVendedor = (carrosVendidos * salarioFixo) + salarioFinalDoVendedor / comissaoFixa
 
-
+let comissaoCarro = carrosVendidos * comissaoPorCarro; 
+let comissaoVendas = valorTotalVendas * 0.05
+let salarioFinalDoVendedor = salarioFixo + comissaoCarro + comissaoVendas
+return salarioFinalDoVendedor;
 }
 
-alert("O salario final do vendedor com a adição da comissão e vendas é: " + salarioConcessionaria())
+//let salarioFInal = salarioConcessionaria()
+alert("O salario final do vendedor com a comissão e vendas é: " + salarioConcessionaria().toFixed(2))
