@@ -5,7 +5,7 @@
 // Escreva um programa que leia o número de maçãs compradas,
 // calcule e escreva o custo total da compra (função)
 // Autor(a)    : Guilherme Souza Andrade
-// Data atual  : 9/13/2026
+// Data atual  : 13/9/2026
 
 let qtdMacas = parseInt(prompt("DIGITE A QUANTIDADE DE MAÇÃS: "));
 if (qtdMacas < 12) {

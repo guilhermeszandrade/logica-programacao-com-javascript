@@ -6,7 +6,7 @@
 // funcionário, que deverá ser acrescido das horas extras, caso
 //tenham sido trabalhadas (considere que o mês possua 4 semanas exatas). (função)
 // Autor(a)    : Guilherme Souza Andrade
-// Data atual  : 9/14/2026
+// Data atual  : 2/10/2026
 
 let horasTrabalhadas = parseInt(prompt("Digite as horas trabalhadas: "));
 let salarioHora = parseInt(prompt("Digite o salario (por hora): "));
